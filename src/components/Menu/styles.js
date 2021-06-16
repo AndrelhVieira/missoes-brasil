@@ -7,6 +7,8 @@ export const Container = styled.section`
   justify-content: space-around;
   background-color: ${COLORS.white};
   color: ${COLORS.black};
+  position: fixed;
+  z-index: 1000;
 
   & img {
     max-width: 75%;
@@ -16,23 +18,6 @@ export const Container = styled.section`
     outline: none;
     border: none;
     background-color: transparent;
-  }
-
-  & i {
-    font-size: 2.5rem;
-    color: ${COLORS.black};
-  }
-`;
-
-export const MenuStyled = styled.ul`
-  list-style: none;
-  background-color: ${COLORS.white};
-  color: ${COLORS.black};
-  margin: 0;
-  padding: 5px;
-  text-align: center;
-
-  & li {
-    padding: 5px;
+    font-size: 2rem;
   }
 `;

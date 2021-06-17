@@ -7,7 +7,6 @@ export const Container = styled.section`
   justify-content: space-around;
   background-color: ${COLORS.white};
   color: ${COLORS.black};
-  position: fixed;
   z-index: 1000;
 
   & img {

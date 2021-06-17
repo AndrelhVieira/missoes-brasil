@@ -1,16 +1,16 @@
 import Menu from "components/Menu";
-import Cover from "components/Cover";
+import CoverInicio from "components/CoverInicio";
 import WhoWeAre from "components/WhoWeAre";
 import Quote from "components/Quote";
 import HowToBe from "components/HowToBe";
 import Products from "components/Products";
 import Footer from "components/Footer";
 
-const Homepage = () => {
+const PaginaInicial = () => {
   return (
     <>
       <Menu />
-      <Cover />
+      <CoverInicio />
       <WhoWeAre />
       <HowToBe />
       <Quote />
@@ -20,4 +20,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default PaginaInicial;

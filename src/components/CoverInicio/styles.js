@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
+import cover from "assets/mapa.jpg";
+
 export const Container = styled.section`
-  background-image: url(${({ image }) => image});
+  background-image: url(${cover});
   background-position: center;
   background-size: cover;
-  height: 50vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;

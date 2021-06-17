@@ -1,11 +1,9 @@
 import { Container } from "./styles";
 
-const Cover = () => {
+const Cover = ({ image }) => {
   return (
     <>
-      <Container>
-        <h1>Missões Brasil</h1>
-      </Container>
+      <Container image={image} />
     </>
   );
 };

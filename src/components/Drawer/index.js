@@ -8,12 +8,13 @@ import menuItems from "providers/menuItems";
 
 import { ListItemTextStyled, DivDrawerStyle } from "./styles";
 
+import { useHistory } from "react-router-dom";
+
 export default function TemporaryDrawer() {
+  const history = useHistory();
+
   const [state, setState] = React.useState({
-    top: false,
     left: false,
-    bottom: false,
-    right: false,
   });
 
   const toggleDrawer = (anchor, open) => (event) => {
@@ -27,16 +28,16 @@ export default function TemporaryDrawer() {
     setState({ ...state, [anchor]: open });
   };
 
+  const redirect = (item) => {
+    history.push(item.link);
+  };
+
   const list = (anchor) => (
-    <DivDrawerStyle
-      role="presentation"
-      onClick={toggleDrawer(anchor, false)}
-      onKeyDown={toggleDrawer(anchor, false)}
-    >
+    <DivDrawerStyle role="presentation" onKeyDown={toggleDrawer(anchor, false)}>
       <List>
         {menuItems.map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemTextStyled primary={text} />
+          <ListItem button key={index} onClick={() => redirect(text)}>
+            <ListItemTextStyled primary={text.text} />
           </ListItem>
         ))}
       </List>

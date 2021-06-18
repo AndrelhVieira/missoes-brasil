@@ -11,8 +11,8 @@ const Produtos = () => {
   return (
     <>
       <Menu />
-      <Title>Produtos</Title>
       <Container>
+        <Title>Produtos</Title>
         {products.map((product, index) => (
           <ProductCard key={index} product={product}></ProductCard>
         ))}

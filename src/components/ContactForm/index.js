@@ -37,25 +37,30 @@ const ContactForm = () => {
           placeholder="Nome"
           {...register("name")}
           autoComplete="off"
+          required
         />
         <Input
           type="tel"
           name="phone"
           placeholder="Telefone (Ex. 00 12345 6789)"
-          pattern="[0-9]{2} [0-9]{5} [0-9]{4}"
+          pattern="[0-9]{2}[0-9]{5}[0-9]{4}"
           required
+          autoComplete="off"
         />
         <Input
           name="email"
+          type="email"
           {...register("email")}
           placeholder="Email"
           autoComplete="off"
+          required
         />
         <Textarea
           name="message"
           {...register("message")}
           placeholder="Mensagem"
           autoComplete="off"
+          required
           rows="5"
         />
         <ButtonStyled type="submit">Enviar</ButtonStyled>

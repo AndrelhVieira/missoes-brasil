@@ -14,6 +14,10 @@ export const ButtonStyled = styled.button`
   color: ${COLORS.white};
   outline: none;
   transition: 0.25s;
+  max-width: 396px;
+  display: block;
+  margin: auto;
+  cursor: pointer;
 
   &:hover {
     background-color: ${COLORS.white};

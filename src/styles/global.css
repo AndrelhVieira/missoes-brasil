@@ -11,3 +11,16 @@ body {
   padding: 0;
   margin: 0;
 }
+
+@keyframes globeSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.infinite-rotate {
+  animation: globeSpin infinite 35s linear;
+}

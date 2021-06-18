@@ -15,13 +15,15 @@ const Footer = () => {
             <i class="fab fa-twitter"></i>
           </div>
         </IconsDiv>
-        <LogoDiv>
-          <p>Desenvolvido por:</p>
-          <img src={alv} />
-        </LogoDiv>
-        <LogoDiv>
-          <img src={Logo} />
-        </LogoDiv>
+        <section>
+          <LogoDiv>
+            <p>Desenvolvido por:</p>
+            <img src={alv} alt="Logo ALV" />
+          </LogoDiv>
+          <LogoDiv>
+            <img src={Logo} alt="Logo de Missões Brasil" />
+          </LogoDiv>
+        </section>
         <p>&copy; Todos os direitos reservados</p>
       </Container>
     </>

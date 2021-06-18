@@ -4,6 +4,8 @@ import { COLORS } from "styles/global";
 
 export const Container = styled.section`
   padding: 10px 20px;
+  max-width: 696px;
+  margin: auto;
 
   & h2 {
     text-align: center;

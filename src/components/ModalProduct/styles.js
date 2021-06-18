@@ -39,6 +39,7 @@ export const ModalStyled = styled(Modal)`
 
   & img {
     width: 75%;
+    max-width: 296px;
   }
 
   & h2,
@@ -59,4 +60,10 @@ export const CardModal = styled.div`
   text-align: center;
   padding: 10px;
   margin: 10px;
+  max-width: 396px;
+
+  & cite {
+    display: block;
+    margin: 10px;
+  }
 `;

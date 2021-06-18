@@ -4,13 +4,14 @@ import { COLORS } from "styles/global";
 export const Container = styled.section`
   padding: 15px 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: ${COLORS.white};
   color: ${COLORS.black};
   z-index: 1000;
 
   & img {
-    max-width: 75%;
+    width: 75%;
+    max-width: 296px;
   }
 
   & button {

@@ -10,7 +10,7 @@ export const ListItemTextStyled = styled(ListItemText)`
 
   & span {
     font-family: "Jost", sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 `;
 

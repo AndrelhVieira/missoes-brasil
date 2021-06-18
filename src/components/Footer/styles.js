@@ -9,6 +9,15 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  & section {
+    @media screen and (min-width: 696px) {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-items: center;
+      align-items: center;
+    }
+  }
 `;
 
 export const LogoDiv = styled.div`
@@ -17,6 +26,7 @@ export const LogoDiv = styled.div`
 
   & img {
     width: 75%;
+    max-width: 296px;
   }
 `;
 
@@ -24,6 +34,7 @@ export const IconsDiv = styled.div`
   text-align: center;
   font-size: 1.5rem;
   margin: 10px;
+  max-width: 396px;
 
   & i {
     margin: 0 15px 0;

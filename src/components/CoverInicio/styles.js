@@ -5,13 +5,13 @@ import cover from "assets/mapa.jpg";
 export const Container = styled.section`
   background-image: url(${cover});
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  & h1 {
+  s & h1 {
     font-size: 2.5rem;
   }
 `;

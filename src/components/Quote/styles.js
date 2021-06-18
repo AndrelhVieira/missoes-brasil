@@ -8,16 +8,42 @@ export const Container = styled.section`
   background-color: ${COLORS.green};
   color: ${COLORS.black};
   font-family: "Cinzel", serif;
+  display: flex;
+  justify-content: center;
 
-  & p {
-    font-size: 1.2rem;
+  & section {
+    max-width: 696px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & p {
+      font-size: 1.5rem;
+    }
+
+    @media screen and (min-width: 696px) {
+      flex-direction: row-reverse;
+
+      & div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 396px;
+        margin: auto;
+
+        & img {
+          margin: 10px;
+        }
+      }
+    }
   }
 `;
 
-export const DividerImage = styled.img`
-  width: 90%;
+export const Image = styled.img`
+  width: 75%;
   display: block;
   margin: auto;
+  max-width: 396px;
 `;
-
-export const GlobalImage = styled(DividerImage)``;

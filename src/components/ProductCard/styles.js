@@ -5,7 +5,7 @@ import { COLORS } from "styles/global";
 export const CardDiv = styled.div`
   padding: 10px;
   text-align: center;
-  border: 3px solid ${COLORS.white};
+  border: 3px solid ${COLORS.green};
   margin: 25px 10px;
   max-width: 296px;
 

@@ -35,7 +35,15 @@ export default function TransitionsModal({ product }) {
           <CardModal>
             <h2>{product.name}</h2>
             <cite>{product.owner}</cite>
-            <img src={product.image} alt="Imagem do produto" />
+            <div>
+              <img src={product.image} alt="Imagem do produto" />
+              <p>
+                Meireles tem dedicado sua vida a estudar e escrever sobre o Islã
+                e povos muçulmanos afim de cooperar com a igreja brasileira com
+                obras literárias que sejam ferramentas para despetar o amor e
+                envio de obreiros aos povos muçulmanos.
+              </p>
+            </div>
             <p>{product.price}</p>
             <ButtonStyled>
               <i class="fab fa-whatsapp"></i>

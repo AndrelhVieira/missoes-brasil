@@ -35,4 +35,5 @@ export const DotButton = styled.button`
 
 export const Image = styled.img`
   width: 100%;
+  border: 3px solid ${COLORS.green};
 `;

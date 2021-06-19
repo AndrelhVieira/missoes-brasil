@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { COLORS } from "styles/global";
+
 export const Container = styled.section`
   padding: 10px 20px;
   margin-bottom: 15px;
@@ -14,6 +16,7 @@ export const Container = styled.section`
     max-width: 396px;
     display: block;
     margin: auto;
+    border: 3px solid ${COLORS.green};
   }
 
   @media screen and (min-width: 696px) {

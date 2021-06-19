@@ -1,9 +1,18 @@
 import { ButtonStyled } from "./styles";
 
-const Button = ({ children }) => {
+import { useHistory } from "react-router";
+
+const Button = ({ linkTo, children }) => {
+  const history = useHistory();
+
+  const redirect = () => {
+    history.push(linkTo);
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
-      <ButtonStyled>{children}</ButtonStyled>
+      <ButtonStyled onClick={redirect}>{children}</ButtonStyled>
     </>
   );
 };

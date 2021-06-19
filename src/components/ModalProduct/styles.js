@@ -20,6 +20,9 @@ export const ButtonStyled = styled.button`
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
+  cursor: pointer;
+  max-width: 296px;
+  margin: auto;
 
   &:hover {
     background-color: ${COLORS.white};
@@ -60,7 +63,28 @@ export const CardModal = styled.div`
   text-align: center;
   padding: 10px;
   margin: 10px;
-  max-width: 396px;
+  max-width: 696px;
+  height: 90vh;
+  overflow-y: scroll;
+
+  & div {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+
+    & p {
+      color: ${COLORS.white};
+      text-align: justify;
+      line-height: 40px;
+      font-weight: normal;
+    }
+
+    @media screen and (min-width: 696px) {
+      flex-direction: row;
+    }
+  }
 
   & cite {
     display: block;

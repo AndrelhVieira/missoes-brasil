@@ -36,8 +36,13 @@ export const IconsDiv = styled.div`
   margin: 10px;
   max-width: 396px;
 
+  & a :link {
+    text-decoration: none;
+  }
+
   & i {
     margin: 0 15px 0;
     font-size: 3rem;
+    color: ${COLORS.black};
   }
 `;

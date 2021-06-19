@@ -42,8 +42,8 @@ const ContactForm = () => {
         <Input
           type="tel"
           name="phone"
-          placeholder="Telefone (Ex. 00 12345 6789)"
-          pattern="[0-9]{2}[0-9]{5}[0-9]{4}"
+          placeholder="Telefone (Ex. 00 9 1234-5678)"
+          pattern="\d{2} ?\d ?\d{4}-?\d{4}"
           required
           autoComplete="off"
         />
@@ -52,6 +52,14 @@ const ContactForm = () => {
           type="email"
           {...register("email")}
           placeholder="Email"
+          autoComplete="off"
+          required
+        />
+        <Input
+          name="cep"
+          type="text"
+          placeholder="CEP (Ex. 12345-678)"
+          pattern="\d{5}-?\d{3}"
           autoComplete="off"
           required
         />

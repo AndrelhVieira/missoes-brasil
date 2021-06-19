@@ -10,9 +10,15 @@ const Footer = () => {
         <IconsDiv>
           <p>Acompanhe nosso trabalho em nossas redes sociais:</p>
           <div>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
+            <a href="#" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
           </div>
         </IconsDiv>
         <section>

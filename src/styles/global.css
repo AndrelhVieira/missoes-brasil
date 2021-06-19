@@ -24,3 +24,20 @@ body {
 .infinite-rotate {
   animation: globeSpin infinite 35s linear;
 }
+
+/* Scroll configs for scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f7f4f3;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7bc950;
+}

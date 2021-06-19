@@ -30,6 +30,7 @@ export default function TemporaryDrawer() {
 
   const redirect = (item) => {
     history.push(item.link);
+    window.scrollTo(0, 0);
   };
 
   const list = (anchor) => (

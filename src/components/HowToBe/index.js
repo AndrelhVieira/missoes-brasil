@@ -22,7 +22,7 @@ const HowToBe = () => {
             accusantium quis velit quod, laboriosam beatae obcaecati corrupti
             pariatur incidunt. Eius.
           </MissionaryText>
-          <Button>Detalhes</Button>
+          <Button linkTo="/como-ser-missionario">Detalhes</Button>
         </div>
       </Container>
     </>

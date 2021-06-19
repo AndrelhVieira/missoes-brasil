@@ -9,12 +9,22 @@ const Products = () => {
     <>
       <Container>
         <Title>Produtos</Title>
-        <p>Confira nossos produtos disponíveis</p>
-        <div>
-          <img src={Livro} alt="Imagem do livro 'O mundo do islã'" />
-          <h4>Livro "O Mundo do Islã"</h4>
-        </div>
-        <Button>Ver produtos</Button>
+        <h2>Confira nossos produtos disponíveis</h2>
+        <section>
+          <div>
+            <img src={Livro} alt="Imagem do livro 'O mundo do islã'" />
+            <h4>Livro "O Mundo do Islã"</h4>
+          </div>
+          <div>
+            <p>
+              Meireles tem dedicado sua vida a estudar e escrever sobre o Islã e
+              povos muçulmanos afim de cooperar com a igreja brasileira com
+              obras literárias que sejam ferramentas para despetar o amor e
+              envio de obreiros aos povos muçulmanos.
+            </p>
+          </div>
+        </section>
+        <Button linkTo="/produtos">Ver produtos</Button>
       </Container>
     </>
   );

@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { COLORS } from "styles/global";
+
 export const Container = styled.section`
   padding: 10px 20px;
   max-width: 696px;
@@ -10,6 +12,7 @@ export const Container = styled.section`
     max-width: 396px;
     display: block;
     margin: auto;
+    border: 3px solid ${COLORS.green};
   }
 `;
 

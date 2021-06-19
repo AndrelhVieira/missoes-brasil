@@ -72,6 +72,7 @@ export const ButtonStyled = styled.button`
   color: ${COLORS.white};
   outline: none;
   transition: 0.25s;
+  cursor: pointer;
 
   &:hover {
     background-color: ${COLORS.white};

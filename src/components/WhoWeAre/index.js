@@ -14,7 +14,7 @@ const WhoWeAre = () => {
           hic sapiente in eos. Quae iste tempore aperiam doloribus reprehenderit
           soluta! Consectetur.
         </p>
-        <Button>Saiba Mais</Button>
+        <Button linkTo="/sobre-nos">Saiba Mais</Button>
       </Container>
     </>
   );

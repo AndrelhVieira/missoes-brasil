@@ -1,4 +1,4 @@
-import { Container } from "./styles";
+import { Container, CardComingSoon } from "./styles";
 
 import Menu from "components/Menu";
 import Title from "components/Title";
@@ -13,9 +13,14 @@ const Produtos = () => {
       <Menu />
       <Container>
         <Title>Produtos</Title>
-        {products.map((product, index) => (
-          <ProductCard key={index} product={product}></ProductCard>
-        ))}
+        <section>
+          {products.map((product, index) => (
+            <ProductCard key={index} product={product}></ProductCard>
+          ))}
+          <CardComingSoon>
+            Em breve mais produtos aparecerão aqui
+          </CardComingSoon>
+        </section>
       </Container>
       <Footer />
     </>

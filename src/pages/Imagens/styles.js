@@ -15,6 +15,7 @@ export const Container = styled.section`
 
   & img {
     width: 100%;
+    border: 3px solid ${COLORS.green};
   }
 `;
 
@@ -23,6 +24,7 @@ export const CarouselImage = styled.img`
   height: 200px;
   margin-bottom: 15px;
   object-fit: cover;
+  border: none !important;
 `;
 
 export const DotButton = styled.button`

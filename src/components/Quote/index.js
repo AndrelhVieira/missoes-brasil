@@ -17,10 +17,10 @@ const Quote = () => {
           </div>
           <div>
             <p>
-              Então ele disse: — Vão pelo mundo inteiro e anunciem o evangelho a
-              todas as pessoas.
+              E disse-lhes: <strong>Ide</strong> por todo o mundo e pregai o
+              evangelho a toda criatura.
             </p>
-            <h4>Marcos 16:15 - NTLH</h4>
+            <h4>Marcos 16:15 - ARA</h4>
             <Image src={divider} alt="Image de um divisor" />
           </div>
         </section>

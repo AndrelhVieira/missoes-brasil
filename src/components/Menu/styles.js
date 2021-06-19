@@ -8,10 +8,13 @@ export const Container = styled.section`
   background-color: ${COLORS.white};
   color: ${COLORS.black};
   z-index: 1000;
+  width: -webkit-fill-available;
+  position: fixed;
 
   & img {
     width: 75%;
     max-width: 296px;
+    cursor: pointer;
   }
 
   & button {

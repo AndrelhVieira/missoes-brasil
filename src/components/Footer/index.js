@@ -1,4 +1,4 @@
-import { Container, LogoDiv, IconsDiv } from "./styles";
+import { Container, LogoDiv, AlvLogo, IconsDiv } from "./styles";
 
 import Logo from "assets/logo.png";
 import alv from "assets/alv-logo.png";
@@ -22,10 +22,10 @@ const Footer = () => {
           </div>
         </IconsDiv>
         <section>
-          <LogoDiv>
+          <AlvLogo>
             <p>Desenvolvido por:</p>
             <img src={alv} alt="Logo ALV" />
-          </LogoDiv>
+          </AlvLogo>
           <LogoDiv>
             <img src={Logo} alt="Logo de Missões Brasil" />
           </LogoDiv>

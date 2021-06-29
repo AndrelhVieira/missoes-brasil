@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import cover from "assets/mapa.jpg";
+import cover from "assets/brazilFlag.gif";
 
 export const Container = styled.section`
   background-image: url(${cover});

@@ -46,3 +46,9 @@ export const IconsDiv = styled.div`
     color: ${COLORS.black};
   }
 `;
+
+export const AlvLogo = styled(LogoDiv)`
+  & img {
+    width: 50%;
+  }
+`;

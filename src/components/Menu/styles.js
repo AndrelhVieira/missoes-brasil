@@ -4,11 +4,11 @@ import { COLORS } from "styles/global";
 export const Container = styled.section`
   padding: 15px 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: ${COLORS.white};
   color: ${COLORS.black};
   z-index: 1000;
-  width: -webkit-fill-available;
+  width: 100%;
   position: fixed;
 
   & img {
@@ -17,10 +17,48 @@ export const Container = styled.section`
     cursor: pointer;
   }
 
+  @media screen and (min-width: 696px) {
+    justify-content: center;
+  }
+
   & button {
     outline: none;
     border: none;
     background-color: transparent;
     font-size: 2rem;
+
+    @media screen and (min-width: 696px) {
+      display: none;
+    }
+  }
+`;
+
+export const LateralMenu = styled.div`
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: ${COLORS.white};
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & button {
+    font-size: 2rem;
+    display: block;
+    margin: 10px 10px;
+    cursor: pointer;
+    color: ${COLORS.black};
+    width: 100%;
+
+    & :hover {
+      transform: scale(1.2);
+      transition: 0.25s;
+    }
+  }
+
+  @media screen and (min-width: 696px) {
+    display: flex;
   }
 `;

@@ -4,7 +4,7 @@ import { COLORS } from "styles/global";
 
 export const Container = styled.section`
   padding: 10px 20px;
-  background-color: ${COLORS.white};
+  background-color: ${COLORS.lightGreen};
   color: ${COLORS.black};
   display: flex;
   flex-direction: column;
@@ -49,6 +49,6 @@ export const IconsDiv = styled.div`
 
 export const AlvLogo = styled(LogoDiv)`
   & img {
-    width: 50%;
+    width: 35%;
   }
 `;

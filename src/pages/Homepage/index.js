@@ -1,5 +1,6 @@
 import Menu from "components/Menu";
 import CoverInicio from "components/CoverInicio";
+import PeopleImages from "components/PeopleImages";
 import WhoWeAre from "components/WhoWeAre";
 import Quote from "components/Quote";
 import HowToBe from "components/HowToBe";
@@ -11,6 +12,7 @@ const PaginaInicial = () => {
     <>
       <Menu />
       <CoverInicio />
+      <PeopleImages />
       <WhoWeAre />
       <HowToBe />
       <Quote />

@@ -14,23 +14,22 @@ export const Input = styled.input`
   font-size: 1.25rem;
   font-family: "Jost", sans-serif;
   outline: none;
-  border: 3px solid ${COLORS.green};
   margin: 10px 0;
   background-color: transparent;
-  border: 2px solid ${COLORS.green};
+  border: 2px solid ${COLORS.black};
   outline: none;
   cursor: pointer;
   width: 100%;
   max-width: 496px;
-  color: ${COLORS.white};
+  color: ${COLORS.black};
 
   &:hover {
-    box-shadow: 1px 1px 10px ${COLORS.green};
+    box-shadow: 1px 1px 10px ${COLORS.black};
     transition: 0.25s;
   }
 
   &:focus {
-    box-shadow: 1px 1px 25px ${COLORS.green};
+    box-shadow: 1px 1px 25px ${COLORS.black};
     transition: 0.25s;
   }
 `;
@@ -39,23 +38,23 @@ export const Textarea = styled.textarea`
   padding: 10px;
   font-size: 1.25rem;
   font-family: "Jost", sans-serif;
-  border: 2px solid ${COLORS.green};
+  border: 2px solid ${COLORS.black};
   outline: none;
   background-color: transparent;
   margin: 10px 0;
   width: 100%;
   max-width: 496px;
   resize: none;
-  color: ${COLORS.white};
+  color: ${COLORS.black};
   cursor: pointer;
 
   &:hover {
-    box-shadow: 1px 1px 10px ${COLORS.green};
+    box-shadow: 1px 1px 10px ${COLORS.black};
     transition: 0.25s;
   }
 
   &:focus {
-    box-shadow: 1px 1px 25px ${COLORS.green};
+    box-shadow: 1px 1px 25px ${COLORS.black};
     transition: 0.25s;
   }
 `;
@@ -75,8 +74,8 @@ export const ButtonStyled = styled.button`
   cursor: pointer;
 
   &:hover {
-    background-color: ${COLORS.white};
-    border: 5px solid ${COLORS.white};
+    background-color: ${COLORS.black};
+    border: 5px solid ${COLORS.black};
     color: ${COLORS.green};
   }
 `;

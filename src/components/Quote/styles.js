@@ -5,7 +5,7 @@ import { COLORS } from "styles/global";
 export const Container = styled.section`
   padding: 10px 20px;
   text-align: center;
-  background-color: ${COLORS.green};
+  background-color: ${COLORS.lightGreen};
   color: ${COLORS.black};
   font-family: "Cinzel", serif;
   display: flex;

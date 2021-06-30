@@ -15,6 +15,7 @@ export const ListItemTextStyled = styled(ListItemText)`
 `;
 
 export const DivDrawerStyle = styled.div`
+  background-color: ${COLORS.lightGreen};
   height: 100vh;
   padding: 0;
   display: flex;

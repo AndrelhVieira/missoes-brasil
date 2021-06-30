@@ -25,8 +25,8 @@ export const ButtonStyled = styled.button`
   margin: auto;
 
   &:hover {
-    background-color: ${COLORS.white};
-    border: 5px solid ${COLORS.white};
+    background-color: ${COLORS.black};
+    border: 5px solid ${COLORS.black};
     color: ${COLORS.green};
   }
 
@@ -60,6 +60,7 @@ export const ModalStyled = styled(Modal)`
 export const CardModal = styled.div`
   outline: none;
   background-color: ${COLORS.black};
+  color: ${COLORS.white};
   text-align: center;
   padding: 10px;
   margin: 10px;

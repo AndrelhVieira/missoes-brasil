@@ -26,9 +26,6 @@ const Footer = () => {
             <p>Desenvolvido por:</p>
             <img src={alv} alt="Logo ALV" />
           </AlvLogo>
-          <LogoDiv>
-            <img src={Logo} alt="Logo de Missões Brasil" />
-          </LogoDiv>
         </section>
         <p>&copy; Todos os direitos reservados</p>
       </Container>

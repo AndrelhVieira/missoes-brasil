@@ -5,7 +5,7 @@ export const Container = styled.section`
   padding: 15px 10px;
   display: flex;
   justify-content: space-evenly;
-  background-color: ${COLORS.white};
+  background-color: ${COLORS.lightGreen};
   color: ${COLORS.black};
   z-index: 1000;
   width: 100%;
@@ -17,7 +17,7 @@ export const Container = styled.section`
     cursor: pointer;
   }
 
-  @media screen and (min-width: 696px) {
+  @media screen and (min-width: 992px) {
     justify-content: center;
   }
 
@@ -27,7 +27,7 @@ export const Container = styled.section`
     background-color: transparent;
     font-size: 2rem;
 
-    @media screen and (min-width: 696px) {
+    @media screen and (min-width: 992px) {
       display: none;
     }
   }
@@ -39,15 +39,16 @@ export const LateralMenu = styled.div`
   top: 0;
   left: 0;
   height: 100vh;
-  background-color: ${COLORS.white};
+  background-color: ${COLORS.lightGreen};
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
   & button {
     font-size: 2rem;
+    font-family: "Jost", sans-serif;
     display: block;
-    margin: 10px 10px;
+    margin: 10px;
     cursor: pointer;
     color: ${COLORS.black};
     width: 100%;
@@ -58,7 +59,7 @@ export const LateralMenu = styled.div`
     }
   }
 
-  @media screen and (min-width: 696px) {
+  @media screen and (min-width: 992px) {
     display: flex;
   }
 `;

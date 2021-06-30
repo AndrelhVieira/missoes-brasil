@@ -19,7 +19,7 @@ export const CardDiv = styled.div`
   }
 
   & p {
-    color: ${COLORS.green};
+    color: ${COLORS.black};
     font-size: 1rem;
     font-weight: bold;
   }

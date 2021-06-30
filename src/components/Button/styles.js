@@ -20,8 +20,8 @@ export const ButtonStyled = styled.button`
   cursor: pointer;
 
   &:hover {
-    background-color: ${COLORS.white};
-    border: 5px solid ${COLORS.white};
+    background-color: ${COLORS.black};
+    border: 5px solid ${COLORS.black};
     color: ${COLORS.green};
   }
 `;

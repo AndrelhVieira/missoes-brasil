@@ -26,8 +26,6 @@ export const Container = styled.section`
   }
 
   & div {
-    /* margin: 25px 10px; */
-
     & img {
       width: 100%;
       max-width: 296px;

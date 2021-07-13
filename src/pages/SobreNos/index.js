@@ -17,17 +17,16 @@ const SobreNos = () => {
       <Container>
         <Title>Sobre Nós</Title>
         <TextAbout>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia minima
-          ipsa voluptatum, saepe natus cumque repudiandae cum dolorum vitae
-          delectus eius distinctio labore, quas pariatur officia voluptatem,
-          assumenda fugit unde!
+          Somos missionários voluntários que trabalham para o Reino de Deus,
+          cumprindo o <strong>IDE</strong> de JESUS, desenvolvendo atividades e
+          projetos nas mais diversas áreas.
         </TextAbout>
         <img src={Foto1} alt="Imagem 1 da página sobre nós" />
         <TextAbout>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia minima
-          ipsa voluptatum, saepe natus cumque repudiandae cum dolorum vitae
-          delectus eius distinctio labore, quas pariatur officia voluptatem,
-          assumenda fugit unde!
+          Nosso proposito é transformar pessoas e levá-las a conhecer{" "}
+          <strong>JESUS</strong>, dando a oportunidade de ter uma caminhada com
+          bom testemunho, despertando sentimentos de amor pelo próximo, vontade
+          de servir, conhecer a palavra de Deus e a alcançar nações.
         </TextAbout>
       </Container>
       <Footer />

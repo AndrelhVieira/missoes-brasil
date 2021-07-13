@@ -17,10 +17,10 @@ const HowToBe = () => {
         </div>
         <div>
           <MissionaryText>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum earum
-            quae illo eius a consectetur ipsam voluptas nihil blanditiis
-            accusantium quis velit quod, laboriosam beatae obcaecati corrupti
-            pariatur incidunt. Eius.
+            Desenvolver projetos que estejam ligadas as áreas sociais,
+            religiosas, humanísticas que alcancem pessoas que carecem de
+            assistência médica, que necessitam de suporte espiritual,
+            atendimento humanitário, bem como projetos relacionados ao ensino.
           </MissionaryText>
           <Button linkTo="/como-ser-missionario">Detalhes</Button>
         </div>

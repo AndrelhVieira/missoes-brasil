@@ -9,10 +9,9 @@ const WhoWeAre = () => {
       <Container>
         <Title>Sobre Nós</Title>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-          voluptate ea cum pariatur aperiam deserunt doloremque optio, dolorem
-          hic sapiente in eos. Quae iste tempore aperiam doloribus reprehenderit
-          soluta! Consectetur.
+          Somos missionários voluntários que trabalham para o Reino de Deus,
+          cumprindo o <strong>IDE</strong> de JESUS, desenvolvendo atividades e
+          projetos nas mais diversas áreas.
         </p>
         <Button linkTo="/sobre-nos">Saiba Mais</Button>
       </Container>

@@ -59,18 +59,20 @@ const Missionario = () => {
       <Container>
         <h2>Como é ser Missionário</h2>
         <TextAbout>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia minima
-          ipsa voluptatum, saepe natus cumque repudiandae cum dolorum vitae
-          delectus eius distinctio labore, quas pariatur officia voluptatem,
-          assumenda fugit unde!
+          Um Missionário deve seguir alguns passos importantes em sua caminhada,
+          e não basta apenas ter a vontade de ir para um país de diferente
+          cultura, língua ou de tradições, mas antes é necessário, estudar, se
+          preparar e conhecer as características e hábitos daquela nação e acima
+          de tudo, dar um bom testemunho cristão e ter vontade de servir a quem
+          mais precisa
         </TextAbout>
         <Image src={Image1} alt="Imagem 1 de trabalho missionário" />
         <h2>O que é ser Missionário</h2>
         <TextAbout>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia minima
-          ipsa voluptatum, saepe natus cumque repudiandae cum dolorum vitae
-          delectus eius distinctio labore, quas pariatur officia voluptatem,
-          assumenda fugit unde!
+          Um Missionário é aquele que se dedica a pregar a{" "}
+          <strong>palavra de Deus</strong>, evangelizar e a trabalhar para a
+          conversão de alguém à sua fé, alcançando o perdido a todo tempo,
+          especialmente entre povos pagãos.
         </TextAbout>
         <Image src={Image2} alt="Imagem 2 de trabalho missionário" />
         <Carousel
@@ -106,6 +108,24 @@ const Missionario = () => {
             ></CarouselImage>
           ))}
         </Carousel>
+        <h2>Como ser Missionário</h2>
+        <TextAbout>
+          Alguns pontos a mais para ser um Missionário e seguir os caminhos de
+          Jesus a todos os povos:
+          <ol>
+            <li>
+              Orar para saber a real vontade de Deus para uma determinada tarefa
+              e decisão
+            </li>
+            <li>Antes de tudo, o missionário deve dar bom testemunho</li>
+            <li>Busque liderança e orientação do seu pastor</li>
+            <li>Tenha bastante motivação e não empolgação</li>
+            <li>Esteja preparado para eventos inesperados</li>
+            <li>Ter sempre a Bíblia como seu escudo e proteção</li>
+            <li>Você não precisa sair de seu país para ser missionário</li>
+            <li>Incentive outras pessoas que tem o chamado de missões</li>
+          </ol>
+        </TextAbout>
       </Container>
       <Footer />
     </>

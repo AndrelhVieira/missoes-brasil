@@ -126,6 +126,22 @@ const Missionario = () => {
             <li>Incentive outras pessoas que tem o chamado de missões</li>
           </ol>
         </TextAbout>
+        <h2>Eventos</h2>
+        <TextAbout>
+          Teremos nesta pagina as informações de Eventos relacionadas as
+          atividades missionárias bem como Cursos, palestras e programas com o
+          objetivo de divulgar, comentar criar blogs de participação de
+          Missionários que estão no campo, trazendo dicas, curiosidades e
+          projetos em andamento.
+        </TextAbout>
+        <h2>Projetos</h2>
+        <TextAbout>
+          <ul>
+            <li>Viagens Missionárias</li>
+            <li>Projeto Social</li>
+            <li>Projeto Abrace uma Criança</li>
+          </ul>
+        </TextAbout>
       </Container>
       <Footer />
     </>
